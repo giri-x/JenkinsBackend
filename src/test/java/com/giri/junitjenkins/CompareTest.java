@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import junit.framework.TestCase;
 
-public class CompareTest extends TestCase {
+ class CompareTest extends TestCase {
 
 	@Test
 	void testCompareString() {
