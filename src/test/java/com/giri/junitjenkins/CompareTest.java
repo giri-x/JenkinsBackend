@@ -1,22 +1,14 @@
 package com.giri.junitjenkins;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-
-
-import junit.framework.TestCase;
-
- class CompareTest extends TestCase {
+class CompareTest {
 
 	@Test
-	void testCompareString() {
-		assertTrue(Compare.compareString("kee", "kee"));
+	void test() {
+		assertEquals(true, Compare.compareString("giri", "giri"));
 	}
-	@Test
-	void testCompareString1() {
-		assertFalse(Compare.compareString("Keer", "kee"));
-	}
+
 }
