@@ -6,13 +6,9 @@ public class Compare {
 	}
 
 	public static boolean  compareString (String str1,String str2) {
-	    	 if(str1.equals(str2)) {
-	    		 return  true;
-	    	 }
-	    	 else
-	    	 {
-	    		 return false;
-	    	 }
-	}
+		
+		    return str1.equals(str2);
+		}
+
 
 }
